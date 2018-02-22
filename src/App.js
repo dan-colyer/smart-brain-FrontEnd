@@ -16,6 +16,7 @@ const particlesOptions = {
     color: {
       value: "#000000"
     },
+    polygon: { nb_sides: 4 },
     line_linked: {
       enable: true,
       distance: 150,
@@ -24,14 +25,14 @@ const particlesOptions = {
       width: 2
     },
     number: {
-      value: 30,
+      value: 10,
       density: {
         enable: true,
         value_area: 400
       }
     }
   }
-}
+};
 
 const initialState = {
   input: '',
@@ -149,7 +150,7 @@ class App extends Component {
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         { route === 'home' 
           ? <div>
-              <Logo />
+              {/* <Logo /> */}
             <Rank name={this.state.user.name} entries={this.state.user.entries}/>
               <ImageLinkForm onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit} />
               <FaceRecognition box={box} imageUrl={imageUrl} />

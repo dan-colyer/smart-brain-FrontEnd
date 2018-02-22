@@ -1,11 +1,10 @@
 .form {
     width: 700px;
-    background: #36c;
-    background: 
-    linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
-    linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
-    linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
-    linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
-    #36c;
+    background: rgba(90, 14, 14, 0.346);
     background-size: 15px 30px
+}
+
+button {
+    background: rgba(186, 168, 168, 0.46);
+    color: black;
 }
