@@ -9,3 +9,23 @@ body {
 button {
   cursor: pointer;
 }
+
+#page-title {
+  display: -webkit-inline-flex;
+  position: absolute;
+  width: 500px;
+  margin: 24px 0px;
+  padding: 16px 16px;
+  vertical-align: middle
+}
+
+.title-text {
+  margin: auto;
+  vertical-align: middle;
+  font-size: 3.5em;
+
+}
+
+#smart-brain-logo {
+  margin: auto;
+}
